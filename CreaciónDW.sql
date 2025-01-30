@@ -1,0 +1,1 @@
+SELECT distinct fecha FROM fact_venta

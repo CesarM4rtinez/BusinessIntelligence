@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_VENTAS_07", "SSAS_VENTAS_07.dwproj", "{BC2302FA-11FE-4F2C-B7BB-B88131B677D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC2302FA-11FE-4F2C-B7BB-B88131B677D8}.Development|Default.ActiveCfg = Development
+		{BC2302FA-11FE-4F2C-B7BB-B88131B677D8}.Development|Default.Build.0 = Development
+		{BC2302FA-11FE-4F2C-B7BB-B88131B677D8}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

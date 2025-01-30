@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_VENTAS_07</Database>
+    <Server>OVI\PRODUCCION</Server>
+    <ConnectionString>Data Source=OVI\PRODUCCION;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>BZjIRw0QmfTpkL281KidVcu2PaE=01/12/2024 08:07:54 a. m.01/12/2024 08:04:13 a. m.</TimeStamp>
+        <ID>
+          <String>DATAMART 07</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>bqFldUA1Z5F6PYNtGZ0Lb4mF9G4=01/12/2024 08:04:27 a. m.01/12/2024 08:04:27 a. m.</TimeStamp>
+        <ID>
+          <String>DATAMART 07</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JoauToUiNyG8RS97lbnG2cnsLf8=01/12/2024 08:05:02 a. m.01/12/2024 08:04:37 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Prod Categoria</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2V1BlVFc8a44/YhYnrZWyQnuZ6w=01/12/2024 08:05:17 a. m.01/12/2024 08:04:37 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>foM5PMgdxqQjWO3QFB8tyrAr3sA=01/12/2024 08:05:56 a. m.01/12/2024 08:04:37 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Fechas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NfAoz1CVpgmBIsoW8KhLFe0NBqI=01/12/2024 08:05:36 a. m.01/12/2024 08:04:37 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Tiendas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PgrSesa4Lp4tu3BerHi9F3BvmI8=01/12/2024 08:11:47 a. m.01/12/2024 08:04:37 a. m.rDGUWF66UQQ9ehfzjIdlSRNu10w=01/12/2024 08:04:37 a. m.01/12/2024 08:04:37 a. m.</TimeStamp>
+        <ID>
+          <String>DATAMART 07</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>WFv6YQ/Sk9sbOMtTqhbsY2qQ+zc=26/11/2024 07:24:56 p. m.26/11/2024 07:24:55 p. m.</TimeStamp>
+      <ID>
+        <String>SSAS_VENTAS_07</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-12-01T14:11:52.866667Z</LastDeployed>
+</DeploymentSnapshot>
