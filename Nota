@@ -1,3 +1,3 @@
 Importante!!!
 
-Recuerde tener instalado SSIS y SSAS a nivel de Visual Studio para abrir los proyectos correctamente. De igual forma contar con la instalación de SSIS y SSAS a nivel de SQL Server.
+Recuerde tener instalado SSIS, SSAS y Access [https://www.microsoft.com/es-mx/download/details.aspx?id=54920] a nivel de Visual Studio para abrir los proyectos correctamente. De igual forma contar con la instalación de SSIS y SSAS a nivel de SQL Server.
